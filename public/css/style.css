@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 414px; /* Iphone 6 plus */
+    margin: 0 auto;
+    margin-top: 3%;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.content-albums {
+    /* margin-bottom: 20px; */
+}
+
+.album-item, .photo-item {
+    border-bottom: 1px solid black;
+    padding: 5px;
+}
+
+.album-item:hover, .photo-item:hover {
+    background-color: #4CAF50;
+    cursor: pointer;
+    transition: 0.5s;
+    color: white;
+}
+
+.album-item > h3, .photo-item > h3 {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.album-item > h2, .photo-item > h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.pagination {
+    margin-top: 20px;
+}
+
+.pagination > div > button {
+    width: 33px;
+    margin-left: 4px;
+    height: 30px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.pagination > div > button:hover, .nav-buttons > button:hover {
+    cursor: pointer;
+    background-color: #1d7c21;
+}
+
+.nav-buttons {
+    margin-bottom: 20px;
+}
+
+.nav-buttons > button {
+    height: 30px;
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 15px;
+    width: 100px;
+}
+
+.single-photo {
+    border: 1px solid #6d645b;
+    padding: 10px;
+}
